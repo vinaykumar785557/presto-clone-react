@@ -1,0 +1,38 @@
+.footertop {
+	margin-top: 50px;
+	margin-bottom: 16px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: flex-start;
+}
+
+.footertop__section__title {
+	font-size: 1.2rem;
+	font-weight: bold;
+	padding: 2px;
+}
+
+.section__list__items {
+	list-style: none;
+}
+.section__list__items > li {
+	padding: 2px;
+	cursor: pointer;
+}
+
+.section__list__items > li:hover {
+	text-decoration: underline;
+	text-decoration-color: black;
+}
+
+.footer__social {
+	margin-top: 18px;
+
+	display: flex;
+
+	align-items: center;
+}
+.footer__social > p {
+	margin-left: 10px;
+	cursor: pointer;
+}

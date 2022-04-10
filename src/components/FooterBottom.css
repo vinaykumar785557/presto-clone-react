@@ -1,0 +1,14 @@
+.footerbottom {
+	background-color: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 10px;
+}
+
+.footerbottom__p {
+	font-size: 12px;
+	font-weight: lighter;
+	letter-spacing: 0.5px;
+	color: white;
+}

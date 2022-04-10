@@ -1,0 +1,23 @@
+.storyitem__title {
+	text-align: center;
+	font-size: 2.2rem;
+	font-weight: 600;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
+.storyitem__image {
+	margin-left: 55px;
+	object-fit: contain;
+}
+
+.storyitem__description {
+	text-align: center;
+	font-size: 16px;
+	line-height: 1.8rem;
+	padding: 8px 18px;
+}
+.storyitem {
+	width: 33.33%;
+}

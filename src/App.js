@@ -1,25 +1,40 @@
-import logo from './logo.svg';
 import './App.css';
+import Accordian from './components/Accordian';
+import AppSuggestion from './components/AppSuggestion';
+import Banner from './components/Banner';
+import Discounts from './components/Discounts';
+import FooterBottom from './components/FooterBottom';
+import FooterTop from './components/FooterTop';
+import Header from './components/Header';
+import Row from './components/Row';
+import StoryBoard from './components/StoryBoard';
+import TransitAgencies from './components/TransitAgencies';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	return (
+		<div className='app'>
+			{/* Header */}
+			<Header />
+			{/* Banner */}
+			<Banner />
+			{/* Row */}
+			<Row />
+			{/* StoryBoard */}
+			<StoryBoard />
+			{/* ProductsAccordian */}
+			<Accordian />
+			{/* TransitAgencies */}
+			<TransitAgencies />
+			{/* AppSuggestion */}
+			<AppSuggestion />
+			{/*Discounts*/}
+			<Discounts />
+			{/* FooterTop */}
+			<FooterTop />
+			{/* FooterBottom */}
+			<FooterBottom />
+		</div>
+	);
 }
 
 export default App;

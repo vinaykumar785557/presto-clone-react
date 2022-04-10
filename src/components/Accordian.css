@@ -1,0 +1,58 @@
+.accordian {
+	margin-top: 20px;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-bottom: 10px;
+	/* border: 1px solid black; */
+}
+
+.accordian__singlecontainer {
+	border: 1px solid black;
+	margin-top: 10px;
+	padding: 20px;
+	display: flex;
+	cursor: pointer;
+}
+summary {
+	color: green;
+	font-size: 1.5rem;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+.icon {
+	object-fit: contain;
+	object-position: 0%;
+	cursor: pointer;
+}
+
+.accordianimage {
+	width: 300px;
+	height: 250px;
+	object-fit: contain;
+}
+
+details::-webkit-details-marker {
+	color: #b33232;
+	font-size: 20px;
+	margin-right: 2px;
+}
+details::-webkit-details-marker:hover {
+	color: red;
+}
+.conainter__p > p {
+	font-size: 1.1rem;
+	color: gray;
+}
+
+.conainter__p a {
+	color: green;
+}
+.container {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.conainter__p {
+	margin-top: 35px;
+}
